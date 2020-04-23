@@ -2,13 +2,13 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config>
-        <device id="pixel_3_xl" />
-      </config>
+      <config />
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80009052-d9a0-48cb-a041-fd3b8553d78b" name="Default Changelist" comment="" />
+    <list default="true" id="3bf07606-f0bf-4445-a1ea-3fbc74950754" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../appLogin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../appLogin/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +31,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1av2pZVe7KGIloPm6wI30cebxg8" />
+  <component name="ProjectId" id="1axaIxqYtEERtqRgY7SOvAyMkKY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
@@ -115,11 +114,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="80009052-d9a0-48cb-a041-fd3b8553d78b" name="Default Changelist" comment="" />
-      <created>1587601931165</created>
+      <changelist id="3bf07606-f0bf-4445-a1ea-3fbc74950754" name="Default Changelist" comment="" />
+      <created>1587679629082</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587601931165</updated>
+      <updated>1587679629082</updated>
     </task>
     <servers />
   </component>
