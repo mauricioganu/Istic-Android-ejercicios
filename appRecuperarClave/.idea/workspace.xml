@@ -7,9 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e87edd6-e2aa-4b2f-a99c-8b99bd3b9038" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../appRegistro/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../appRegistro/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appRegistro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../appRegistro/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appRegistro/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../appRegistro/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +17,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="ce081718ba30882f047e" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -129,7 +128,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
