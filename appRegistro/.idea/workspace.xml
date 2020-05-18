@@ -7,9 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bf07606-f0bf-4445-a1ea-3fbc74950754" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../appRecuperarClave/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../appRecuperarClave/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appJuego/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../appJuego/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appJuego/app/src/main/java/com/example/appjuego/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../appJuego/app/src/main/java/com/example/appjuego/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appJuego/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../appJuego/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +19,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="ce081718ba30882f047e" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
