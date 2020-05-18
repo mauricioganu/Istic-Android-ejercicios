@@ -746,8 +746,8 @@ id btnContar
 id btnIr
 id btnOk
 id btnRegistrar
+id btn_next
 id btn_registro
-id button
 id buttonPanel
 id center_vertical
 id chains

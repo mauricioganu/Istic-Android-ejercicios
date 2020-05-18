@@ -745,8 +745,8 @@ int id btnContar 0x7f070042
 int id btnIr 0x7f070043
 int id btnOk 0x7f070044
 int id btnRegistrar 0x7f070045
-int id btn_registro 0x7f070046
-int id button 0x7f070047
+int id btn_next 0x7f070046
+int id btn_registro 0x7f070047
 int id buttonPanel 0x7f070048
 int id center_vertical 0x7f070049
 int id chains 0x7f07004a
