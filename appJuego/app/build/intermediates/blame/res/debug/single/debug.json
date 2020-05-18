@@ -28,12 +28,12 @@
         "source": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\src\\main\\res\\layout\\activity_ok_registro.xml"
     },
     {
-        "merged": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
