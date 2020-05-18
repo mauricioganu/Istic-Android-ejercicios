@@ -64,6 +64,10 @@
         "source": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\build\\intermediates\\res\\merged\\debug\\drawable-keysexposed_yo.jpg.flat",
+        "source": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\src\\main\\res\\drawable-keysexposed\\yo.jpg"
+    },
+    {
         "merged": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_registro.xml.flat",
         "source": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\src\\main\\res\\layout\\activity_registro.xml"
     },

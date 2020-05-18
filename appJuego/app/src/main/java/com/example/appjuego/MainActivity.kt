@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         btnIr.setOnClickListener {
-            val intent: Intent =Intent(this, contador::class.java)
+            val intent: Intent =Intent(this, QuienSoy::class.java)
             startActivity(intent)
 
             }
