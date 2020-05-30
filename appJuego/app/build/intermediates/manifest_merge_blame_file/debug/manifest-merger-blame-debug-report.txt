@@ -11,7 +11,7 @@
 9-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:5:5-23:19
+11-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:5:5-27:19
 12        android:allowBackup="true"
 12-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -28,32 +28,38 @@
 19-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:10:9-35
 20        android:theme="@style/AppTheme" >
 20-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity android:name="com.example.appjuego.okRegistro" />
-21-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:12:9-57
-21-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:12:19-45
-22        <activity android:name="com.example.appjuego.registro" />
-22-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:13:9-46
-22-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:13:19-43
-23        <activity android:name="com.example.appjuego.contador" />
+21        <activity android:name="com.example.appjuego.splash" />
+21-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:12:9-53
+21-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:12:19-41
+22        <activity android:name="com.example.appjuego.okRegistro" />
+22-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:13:9-48
+22-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:13:19-45
+23        <activity android:name="com.example.appjuego.registro" />
 23-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:14:9-46
 23-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:14:19-43
-24        <activity android:name="com.example.appjuego.QuienSoy" />
+24        <activity android:name="com.example.appjuego.contador" />
 24-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:15:9-46
 24-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:15:19-43
-25        <activity android:name="com.example.appjuego.MainActivity" >
-25-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:16:9-22:20
-25-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:16:19-47
-26            <intent-filter>
-26-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:17:13-21:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:18:17-69
-27-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:18:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:20:17-77
-29-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:20:27-74
-30            </intent-filter>
-31        </activity>
-32    </application>
-33
-34</manifest>
+25        <activity android:name="com.example.appjuego.QuienSoy" />
+25-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:16:9-46
+25-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:16:19-43
+26        <activity
+26-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:17:9-26:20
+27            android:name="com.example.appjuego.MainActivity"
+27-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:18:13-41
+28            android:theme="@style/SplashTheme" >
+28-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:20:13-47
+29            <intent-filter>
+29-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:21:13-25:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:22:17-69
+30-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:22:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:24:17-77
+32-->C:\Users\mauri\Desktop\androidIstic\Istic-Android-ejercicios\appJuego\app\src\main\AndroidManifest.xml:24:27-74
+33            </intent-filter>
+34        </activity>
+35    </application>
+36
+37</manifest>
