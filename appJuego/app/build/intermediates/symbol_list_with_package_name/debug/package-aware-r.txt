@@ -651,6 +651,8 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable botonredondo
+drawable btn_ayuda_c
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -748,7 +750,10 @@ id btnContar
 id btnIr
 id btnOk
 id btnRegistrar
-id btn_next
+id btnReset
+id btnSiguiente
+id btnVolver
+id btn_ayuda_c
 id btn_registro
 id buttonPanel
 id center_vertical
@@ -767,13 +772,6 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
-id editText
-id editText10
-id editText11
-id editText12
-id editText2
-id editText8
-id editText9
 id edit_query
 id end
 id expand_activities_button
@@ -792,6 +790,12 @@ id imageView
 id info
 id invisible
 id italic
+id lblApellido
+id lblConfirmar
+id lblMail
+id lblNombre
+id lblPass
+id lblUsuario
 id left
 id line1
 id line3
@@ -809,6 +813,7 @@ id notification_main_column_container
 id off
 id on
 id packed
+id pagina
 id parent
 id parentPanel
 id percent
@@ -868,6 +873,7 @@ id textView12
 id textView13
 id textView14
 id textView15
+id textView16
 id textView2
 id textView3
 id textView4
@@ -875,6 +881,7 @@ id textView5
 id textView6
 id textView7
 id textView8
+id textView9
 id time
 id title
 id titleDividerNoCustom
@@ -928,6 +935,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_ayuda_contador
 layout activity_contador
 layout activity_main
 layout activity_ok_registro

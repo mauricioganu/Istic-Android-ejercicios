@@ -12,6 +12,10 @@
         "source": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
+        "merged": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\build\\intermediates\\res\\merged\\debug\\drawable_botonredondo.xml.flat",
+        "source": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\src\\main\\res\\drawable\\botonredondo.xml"
+    },
+    {
         "merged": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
@@ -36,12 +40,12 @@
         "source": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\src\\main\\res\\layout\\activity_ok_registro.xml"
     },
     {
-        "merged": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
@@ -70,6 +74,10 @@
     {
         "merged": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ayuda_contador.xml.flat",
+        "source": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\src\\main\\res\\layout\\activity_ayuda_contador.xml"
     },
     {
         "merged": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
@@ -106,6 +114,10 @@
     {
         "merged": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_ayuda_c.xml.flat",
+        "source": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\src\\main\\res\\drawable\\btn_ayuda_c.xml"
     },
     {
         "merged": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",

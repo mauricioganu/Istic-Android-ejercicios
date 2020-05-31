@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFEB3B"
     tools:context=".registro">
 
     <TextView
@@ -27,7 +28,7 @@
         android:text="Registre su clave"
         app:layout_constraintEnd_toEndOf="@+id/textView12"
         app:layout_constraintStart_toStartOf="@+id/textView13"
-        app:layout_constraintTop_toBottomOf="@+id/editText8" />
+        app:layout_constraintTop_toBottomOf="@+id/lblMail" />
 
     <TextView
         android:id="@+id/textView12"
@@ -36,7 +37,7 @@
         android:layout_marginBottom="15dp"
         android:text="Ingrese su email"
         android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/editText8"
+        app:layout_constraintBottom_toTopOf="@+id/lblMail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -46,13 +47,15 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="29dp"
         android:layout_marginBottom="28dp"
+        android:background="#101010"
         android:fontFamily="sans-serif"
         android:text="Registrarme"
         android:textAlignment="center"
+        android:textColor="@android:color/white"
         android:textSize="18sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/editText12" />
+        app:layout_constraintEnd_toEndOf="@+id/lblConfirmar" />
 
     <TextView
         android:id="@+id/textView13"
@@ -61,22 +64,22 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="32dp"
         android:text="Ingrese su apellido"
-        app:layout_constraintStart_toStartOf="@+id/editText11"
-        app:layout_constraintTop_toBottomOf="@+id/editText11" />
+        app:layout_constraintStart_toStartOf="@+id/lblNombre"
+        app:layout_constraintTop_toBottomOf="@+id/lblNombre" />
 
     <EditText
-        android:id="@+id/editText8"
+        android:id="@+id/lblMail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="3dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        app:layout_constraintEnd_toEndOf="@+id/editText10"
-        app:layout_constraintTop_toBottomOf="@+id/editText10" />
+        app:layout_constraintEnd_toEndOf="@+id/lblApellido"
+        app:layout_constraintTop_toBottomOf="@+id/lblApellido" />
 
     <EditText
-        android:id="@+id/editText9"
+        android:id="@+id/lblPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
@@ -95,7 +98,7 @@
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText9" />
+        app:layout_constraintTop_toBottomOf="@+id/lblPass" />
 
     <TextView
         android:id="@+id/textView15"
@@ -108,7 +111,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <EditText
-        android:id="@+id/editText10"
+        android:id="@+id/lblApellido"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
@@ -119,7 +122,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
     <EditText
-        android:id="@+id/editText11"
+        android:id="@+id/lblNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
@@ -130,7 +133,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
     <EditText
-        android:id="@+id/editText12"
+        android:id="@+id/lblConfirmar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"

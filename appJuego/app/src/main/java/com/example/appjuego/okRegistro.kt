@@ -13,7 +13,7 @@ class okRegistro : AppCompatActivity() {
         btnOk.setOnClickListener {
             val intent: Intent = Intent(this, MainActivity ::class.java)
             startActivity(intent)
-
+            
         }
     }
 }

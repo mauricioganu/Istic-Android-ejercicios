@@ -3,7 +3,7 @@ package com.example.appjuego
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_contador.*
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -13,17 +13,31 @@ class MainActivity : AppCompatActivity() {
         setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        btnRegistrar.setOnClickListener {
+            val intent2: Intent =Intent(this, registro ::class.java)
+            startActivity(intent2)
+            finish()
+
+        }
         btnIr.setOnClickListener {
-            val intent: Intent =Intent(this, QuienSoy::class.java)
-            startActivity(intent)
+            if (lblUsuario.text.toString().isEmpty() or lblPass.text.toString().isEmpty())
+            {
+
+                Toast.makeText(this, "Campos vacios ", Toast.LENGTH_LONG).show()
+            }
+
+
+            else {
+
+
+            val intent1: Intent =Intent(this, QuienSoy::class.java)
+            startActivity(intent1)
 
             }
-        btnRegistrar.setOnClickListener {
-            val intent: Intent =Intent(this, registro ::class.java)
-            startActivity(intent)
+
 
         }
 
-        }
     }
+}
 
