@@ -10,8 +10,8 @@ class QuienSoy : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quien_soy)
-        pagina.setOnClickListener {
-            val intent_siguiente: Intent = Intent(this,contador::class.java)
+        btnSiguiente.setOnClickListener {
+            val intent_siguiente: Intent = Intent(this,menuDeJuegos::class.java)
             startActivity(intent_siguiente)
 
         }

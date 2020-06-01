@@ -9,14 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ayudaContador"></activity>
+        <activity android:name=".numeroSecreto"></activity>
+        <activity android:name=".menuDeJuegos" />
+        <activity android:name=".ayudaContador" />
         <activity android:name=".splash" />
         <activity android:name=".contador" />
         <activity android:name=".okRegistro" />
         <activity android:name=".QuienSoy" />
         <activity android:name=".registro" />
-
-
         <activity
             android:name=".MainActivity"
             android:theme="@style/SplashTheme">

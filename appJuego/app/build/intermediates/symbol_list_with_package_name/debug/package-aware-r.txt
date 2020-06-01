@@ -661,6 +661,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable contando
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable notification_action_background
@@ -753,6 +754,12 @@ id btnRegistrar
 id btnReset
 id btnSiguiente
 id btnVolver
+id btn_Descubrir
+id btn_Juego_Contador
+id btn_Juego_Numero
+id btn_Otro_Intento
+id btn_Perdio
+id btn_Regresar
 id btn_ayuda_c
 id btn_registro
 id buttonPanel
@@ -787,6 +794,7 @@ id icon_group
 id ifRoom
 id image
 id imageView
+id imageView2
 id info
 id invisible
 id italic
@@ -794,8 +802,11 @@ id lblApellido
 id lblConfirmar
 id lblMail
 id lblNombre
+id lblNumero
 id lblPass
 id lblUsuario
+id lbl_Ingreso
+id lbl_NumeroIntentos
 id left
 id line1
 id line3
@@ -813,7 +824,6 @@ id notification_main_column_container
 id off
 id on
 id packed
-id pagina
 id parent
 id parentPanel
 id percent
@@ -874,7 +884,11 @@ id textView13
 id textView14
 id textView15
 id textView16
+id textView17
+id textView18
+id textView19
 id textView2
+id textView21
 id textView3
 id textView4
 id textView5
@@ -938,6 +952,8 @@ layout abc_tooltip
 layout activity_ayuda_contador
 layout activity_contador
 layout activity_main
+layout activity_menu_de_juegos
+layout activity_numero_secreto
 layout activity_ok_registro
 layout activity_quien_soy
 layout activity_registro
