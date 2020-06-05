@@ -13,7 +13,7 @@ class QuienSoy : AppCompatActivity() {
         btnSiguiente.setOnClickListener {
             val intent_siguiente: Intent = Intent(this,menuDeJuegos::class.java)
             startActivity(intent_siguiente)
-
+            finish()
         }
     }
 }

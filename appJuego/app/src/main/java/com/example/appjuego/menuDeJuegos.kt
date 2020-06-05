@@ -18,6 +18,7 @@ class menuDeJuegos : AppCompatActivity() {
         btn_Juego_Numero.setOnClickListener {
             val intent: Intent = Intent(this, numeroSecreto ::class.java)
             startActivity(intent)
+            finish()
 
         }
     }

@@ -21,10 +21,10 @@ class MainActivity : AppCompatActivity() {
         }
         btnIr.setOnClickListener {
             if (lblUsuario.text.toString().isEmpty() or lblPass.text.toString().isEmpty())
-            {
+        {
 
-                Toast.makeText(this, "Campos vacios ", Toast.LENGTH_LONG).show()
-            }
+            Toast.makeText(this, "Campos vacios ", Toast.LENGTH_LONG).show()
+        }
 
 
             else {
@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
             val intent1: Intent =Intent(this, QuienSoy::class.java)
             startActivity(intent1)
-
+            finish()
             }
 
 

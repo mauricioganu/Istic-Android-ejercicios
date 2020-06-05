@@ -13,6 +13,7 @@ class ayudaContador : AppCompatActivity() {
         btnVolver.setOnClickListener{
             val intent: Intent = Intent(this, contador ::class.java)
             startActivity(intent)
+            finish()
 
 
         }

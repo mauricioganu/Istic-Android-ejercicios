@@ -25,7 +25,7 @@ class registro : AppCompatActivity() {
 
             val intent: Intent =Intent(this,okRegistro ::class.java)
             startActivity(intent)
-
+            finish()
 
         }
 

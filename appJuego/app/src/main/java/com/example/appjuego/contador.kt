@@ -26,7 +26,7 @@ class contador : AppCompatActivity() {
         val intent: Intent = Intent(this, ayudaContador ::class.java)
         startActivity(intent)
 
-
+        finish()
     }
 
     }
