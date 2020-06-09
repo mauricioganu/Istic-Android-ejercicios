@@ -3,6 +3,8 @@ package com.example.appjuego
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -13,6 +15,11 @@ class MainActivity : AppCompatActivity() {
         setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        val btnRegistrar : Button =findViewById<Button>(R.id.btnRegistrar)
+        val btnIr :Button =findViewById<Button>(R.id.btnIr)
+        val lblUsuario :TextView =findViewById<TextView>(R.id.lblUsuario)
+        val lblPass :TextView =findViewById<TextView>(R.id.lblPass)
+        
         btnRegistrar.setOnClickListener {
             val intent2: Intent =Intent(this, registro ::class.java)
             startActivity(intent2)

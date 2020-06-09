@@ -3,8 +3,11 @@ package com.example.appjuego
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_numero_secreto.*
+import org.w3c.dom.Text
 
 class numeroSecreto : AppCompatActivity() {
     val numeroRandom=(Math.random()*10).toInt()
@@ -12,6 +15,14 @@ class numeroSecreto : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_numero_secreto)
+        val lbl_Ingreso : TextView =findViewById<TextView>(R.id.lbl_Ingreso)
+        val lblNumero :TextView =findViewById<TextView>(R.id.lblNumero)
+        val lbl_NumeroIntentos :TextView =findViewById<Button>(R.id.lbl_NumeroIntentos)
+        val btn_Otro_Intento :Button =findViewById<Button>(R.id.btn_Otro_Intento)
+        val btn_Regresar :Button =findViewById<Button>(R.id.btn_Regresar)
+        val btn_Perdio :Button =findViewById<Button>(R.id.btn_Perdio)
+        val btn_Descubrir :Button =findViewById<Button>(R.id.btn_Descubrir)
+
         btn_Otro_Intento.setOnClickListener{
             val intent:Intent=Intent (this,com.example.appjuego.numeroSecreto::class.java)
             startActivity(intent)

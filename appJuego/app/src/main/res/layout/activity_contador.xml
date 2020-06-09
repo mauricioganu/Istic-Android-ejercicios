@@ -7,63 +7,117 @@
     android:background="#FFEB3B"
     tools:context=".contador">
 
-    <TextView
-        android:id="@+id/textView"
+    <Button
+        android:id="@+id/btnVolver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="49dp"
+        android:layout_marginBottom="29dp"
+        android:backgroundTint="#121111"
+        android:text="Volver"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnReset" />
+
+    <TextView
+        android:id="@+id/txtContando"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="30dp"
+        android:text="-"
         android:textSize="100dp"
         app:layout_constraintBottom_toTopOf="@+id/btnContar"
         app:layout_constraintEnd_toEndOf="@+id/btnContar"
-        app:layout_constraintStart_toStartOf="@+id/btnContar" />
+        tools:text="-" />
 
     <Button
         android:id="@+id/btnContar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="227dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/botonredondo"
         android:backgroundTint="#0E0E0E"
         android:text="Contar"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/btnReset"
+        app:layout_constraintEnd_toStartOf="@+id/btnGuardar" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="108dp"
-        android:layout_marginBottom="68dp"
+        android:layout_marginTop="25dp"
         android:text="Usted lleva hasta el momento"
         android:textAlignment="center"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/objetoAContar"
+        app:layout_constraintTop_toBottomOf="@+id/objetoAContar" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="1dp"
+        android:backgroundTint="#121111"
+        android:text="Guardar"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnReset"
+        app:layout_constraintTop_toBottomOf="@+id/btnContar" />
 
     <Button
         android:id="@+id/btnReset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="71dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="129dp"
         android:backgroundTint="#121111"
         android:text="Reiniciar"
         android:textAlignment="center"
         android:textColor="@android:color/white"
-        app:layout_constraintStart_toStartOf="@+id/btnContar"
-        app:layout_constraintTop_toBottomOf="@+id/btnContar" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnGuardar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ayuda_c" />
 
     <Button
         android:id="@+id/btn_ayuda_c"
-        android:layout_width="62dp"
-        android:layout_height="74dp"
+        android:layout_width="65dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="464dp"
         android:background="@drawable/btn_ayuda_c"
         android:text="Ayuda"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnReset"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginBottom="32dp"
+        android:text="¿Qué va a contar?"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/objetoAContar"
+        app:layout_constraintStart_toStartOf="@+id/objetoAContar" />
+
+    <EditText
+        android:id="@+id/objetoAContar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="85dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ayuda_c" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

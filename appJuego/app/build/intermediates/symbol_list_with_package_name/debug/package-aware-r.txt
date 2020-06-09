@@ -748,6 +748,7 @@ id beginning
 id blocking
 id bottom
 id btnContar
+id btnGuardar
 id btnIr
 id btnOk
 id btnRegistrar
@@ -761,6 +762,7 @@ id btn_Otro_Intento
 id btn_Perdio
 id btn_Regresar
 id btn_ayuda_c
+id btn_ayuda_c2
 id btn_registro
 id buttonPanel
 id center_vertical
@@ -821,6 +823,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id objetoAContar
 id off
 id on
 id packed
@@ -902,6 +905,8 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id txtContando
+id txtMultilinea
 id unchecked
 id uniform
 id up
@@ -951,6 +956,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_ayuda_contador
 layout activity_contador
+layout activity_guardar_valor_contador
 layout activity_main
 layout activity_menu_de_juegos
 layout activity_numero_secreto
