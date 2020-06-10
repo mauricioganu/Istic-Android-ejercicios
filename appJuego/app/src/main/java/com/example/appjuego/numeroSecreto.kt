@@ -22,7 +22,12 @@ class numeroSecreto : AppCompatActivity() {
         val btn_Regresar :Button =findViewById<Button>(R.id.btn_Regresar)
         val btn_Perdio :Button =findViewById<Button>(R.id.btn_Perdio)
         val btn_Descubrir :Button =findViewById<Button>(R.id.btn_Descubrir)
-
+        val btn_ayuda_n :Button =findViewById<Button>(R.id.btn_ayuda_n)
+        btn_ayuda_n.setOnClickListener{
+            val intent:Intent=Intent (this,com.example.appjuego.ayudaNumero::class.java)
+            startActivity(intent)
+            finish()
+        }
         btn_Otro_Intento.setOnClickListener{
             val intent:Intent=Intent (this,com.example.appjuego.numeroSecreto::class.java)
             startActivity(intent)

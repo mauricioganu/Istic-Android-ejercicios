@@ -19,7 +19,7 @@ class contador : AppCompatActivity() {
         setContentView(R.layout.activity_contador)
         val btnContar :Button =findViewById<Button>(R.id.btnContar)
         val btnReset :Button =findViewById<Button>(R.id.btnReset)
-        val btn_Ayuda_c:Button =findViewById<Button>(R.id.btn_ayuda_c)
+        val btn_ayuda_c:Button =findViewById<Button>(R.id.btn_ayuda_c)
         val btnVolver :Button =findViewById<Button>(R.id.btnVolver)
         val objetoAContar :TextView =findViewById<TextView>(R.id.objetoAContar)
         val txtContando :TextView =findViewById<TextView>(R.id.txtContando)

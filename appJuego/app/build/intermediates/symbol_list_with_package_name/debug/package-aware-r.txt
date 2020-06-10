@@ -755,6 +755,7 @@ id btnRegistrar
 id btnReset
 id btnSiguiente
 id btnVolver
+id btnVolver2
 id btn_Descubrir
 id btn_Juego_Contador
 id btn_Juego_Numero
@@ -762,7 +763,7 @@ id btn_Otro_Intento
 id btn_Perdio
 id btn_Regresar
 id btn_ayuda_c
-id btn_ayuda_c2
+id btn_ayuda_n
 id btn_registro
 id buttonPanel
 id center_vertical
@@ -891,7 +892,11 @@ id textView17
 id textView18
 id textView19
 id textView2
+id textView20
 id textView21
+id textView22
+id textView23
+id textView24
 id textView3
 id textView4
 id textView5
@@ -955,6 +960,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_ayuda_contador
+layout activity_ayuda_numero
 layout activity_contador
 layout activity_guardar_valor_contador
 layout activity_main

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".guardar_valor_contador"></activity>
+        <activity android:name=".ayudaNumero"></activity>
+        <activity android:name=".guardar_valor_contador" />
         <activity android:name=".numeroSecreto" />
         <activity android:name=".menuDeJuegos" />
         <activity android:name=".ayudaContador" />
