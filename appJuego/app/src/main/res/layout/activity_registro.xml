@@ -45,7 +45,7 @@
         android:id="@+id/btn_registro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="29dp"
+        android:layout_marginEnd="129dp"
         android:layout_marginBottom="28dp"
         android:background="#101010"
         android:fontFamily="sans-serif"
@@ -55,7 +55,7 @@
         android:textSize="18sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/lblConfirmar" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/textView13"
@@ -82,23 +82,12 @@
         android:id="@+id/lblPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
+        android:layout_marginStart="3dp"
         android:layout_marginTop="25dp"
         android:ems="10"
         android:inputType="textPassword"
-        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintStart_toStartOf="@+id/lblMail"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="27dp"
-        android:text="Reingrese su clave para confirmar"
-        android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lblPass" />
 
     <TextView
         android:id="@+id/textView15"
@@ -132,13 +121,4 @@
         app:layout_constraintStart_toStartOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
-    <EditText
-        android:id="@+id/lblConfirmar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:inputType="textPassword"
-        app:layout_constraintStart_toStartOf="@+id/textView14"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
 </androidx.constraintlayout.widget.ConstraintLayout>
