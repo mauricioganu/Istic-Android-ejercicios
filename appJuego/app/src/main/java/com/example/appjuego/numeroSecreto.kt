@@ -40,8 +40,9 @@ class numeroSecreto : AppCompatActivity() {
        }
         btn_Perdio.setOnClickListener{
 
-            lblNumero.text=numeroRandom.toString()
+
             Toast.makeText(this, "El número era $numeroRandom ", Toast.LENGTH_LONG).show()
+            lblNumero.text=numeroRandom.toString()
         }
         btn_Descubrir.setOnClickListener{
             numeroIntentos++
@@ -58,19 +59,21 @@ class numeroSecreto : AppCompatActivity() {
                     Toast.makeText(this, "Ingresa un número mayor a 0 ", Toast.LENGTH_LONG).show()
                 } else
                 {
-                    if (lbl_Ingreso.text.toString() < 10.toString())
+                    if (numeroRandom.toString() == lbl_Ingreso.text.toString())
                     {
-                        Toast.makeText(this, "Tu número es menor ", Toast.LENGTH_LONG).show()
-                    } else
-                    {
-                        Toast.makeText(this, "Tu numero es mayor  ", Toast.LENGTH_LONG).show()
-                    }
-                }
-                if (numeroRandom.toString() == lbl_Ingreso.text.toString())
-
-                    {
-                        Toast.makeText(this, "Acertaste!", Toast.LENGTH_LONG).show()
+                        Toast.makeText(this, "Excelente! Adivinaste el número!", Toast.LENGTH_LONG).show()
                         lblNumero.text=numeroRandom.toString()
+                    }
+                    else
+                    {
+                        if (numeroRandom.toString() < lbl_Ingreso.text.toString())
+                        {
+                            Toast.makeText(this,"El número es menor",Toast.LENGTH_LONG).show()
+                        }
+                        else
+                        {
+                            Toast.makeText(this, "El número es mayor", Toast.LENGTH_LONG).show()
+                        }
                     }
 
 
@@ -89,3 +92,4 @@ class numeroSecreto : AppCompatActivity() {
 
         }
     }
+}
