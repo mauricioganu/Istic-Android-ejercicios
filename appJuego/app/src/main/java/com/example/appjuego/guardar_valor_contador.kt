@@ -21,17 +21,14 @@ class guardar_valor_contador : AppCompatActivity() {
         setContentView(R.layout.activity_guardar_valor_contador)
         val btnVolver : Button =findViewById<Button>(R.id.btnVolver)
         val txtMultilinea : TextView =findViewById<TextView>(R.id.txtMultilinea)
-        val btnReset : Button =findViewById<Button>(R.id.btnReset)
+
         btnVolver.setOnClickListener{
             val intent: Intent = Intent(this, contador ::class.java)
             startActivity(intent)
 
             finish()
         }
-        btnReset.setOnClickListener{
 
-
-        }
 
 
     }

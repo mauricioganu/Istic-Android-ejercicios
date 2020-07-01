@@ -17,10 +17,10 @@ class QuienSoy : AppCompatActivity() {
             startActivity(intent_siguiente)
             finish()
         }
-        btnUsuarioListado.setOnClickListener{
-            val intento1 = Intent(this, Listado_usuarios::class.java)
-            startActivity(intento1)
-
+        boton.setOnClickListener {
+            val intent_siguiente: Intent = Intent(this,listadoRegistro::class.java)
+            startActivity(intent_siguiente)
+            finish()
         }
     }
 }

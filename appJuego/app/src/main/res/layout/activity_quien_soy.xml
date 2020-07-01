@@ -78,15 +78,13 @@
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <Button
-        android:id="@+id/btnUsuarioListado"
+        android:id="@+id/boton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="94dp"
-        android:layout_marginEnd="95dp"
-        android:layout_marginBottom="113dp"
-        android:text="Listado"
+        android:layout_marginStart="87dp"
+        android:layout_marginBottom="86dp"
+        android:text="Listar"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/textView5"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
