@@ -34,15 +34,14 @@ class guardar_valor_contador : AppCompatActivity() {
     }
     private  fun CargarListado()
     {
-        if (fileList().contains("datos.txt")) {
+        if (fileList().contains("score_contador.txt")) {
             try {
-                val archivo = InputStreamReader(openFileInput("datos.txt"))
+                val archivo = InputStreamReader(openFileInput("score_contador.txt"))
                 val br = BufferedReader(archivo)
                 var linea = br.readLine()
                 val listado = StringBuilder()//solo para mostrarlo
                 while (linea != null) {
                     listado.append(linea + " \n ")
-
                     linea = br.readLine()
                 }
                 br.close()

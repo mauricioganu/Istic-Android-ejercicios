@@ -132,6 +132,10 @@
         "source": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\src\\main\\res\\layout\\activity_ayuda_numero.xml"
     },
     {
+        "merged": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_guardar__intentos.xml.flat",
+        "source": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\src\\main\\res\\layout\\activity_guardar__intentos.xml"
+    },
+    {
         "merged": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\build\\intermediates\\res\\merged\\debug\\drawable_contando.jpg.flat",
         "source": "C:\\Users\\mauri\\Desktop\\androidIstic\\Istic-Android-ejercicios\\appJuego\\app\\src\\main\\res\\drawable\\contando.jpg"
     },

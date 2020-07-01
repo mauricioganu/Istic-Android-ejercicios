@@ -19,6 +19,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.appjuego.guardar_Intentos" />
         <activity android:name="com.example.appjuego.listadoRegistro" />
         <activity android:name="com.example.appjuego.ayudaNumero" />
         <activity android:name="com.example.appjuego.guardar_valor_contador" />

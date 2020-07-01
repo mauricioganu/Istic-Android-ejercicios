@@ -765,7 +765,10 @@ id btn_Perdio
 id btn_Regresar
 id btn_ayuda_c
 id btn_ayuda_n
+id btn_guardarIntento
+id btn_historial
 id btn_registro
+id btn_volver
 id buttonPanel
 id center_vertical
 id chains
@@ -914,6 +917,7 @@ id top
 id topPanel
 id txtContando
 id txtMultilinea
+id txt_historial
 id unchecked
 id uniform
 id up
@@ -964,6 +968,7 @@ layout abc_tooltip
 layout activity_ayuda_contador
 layout activity_ayuda_numero
 layout activity_contador
+layout activity_guardar__intentos
 layout activity_guardar_valor_contador
 layout activity_listado_registro
 layout activity_main

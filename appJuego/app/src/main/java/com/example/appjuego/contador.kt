@@ -47,14 +47,18 @@ class contador : AppCompatActivity() {
 
             finish()
         }
-
-        btnGuardar.setOnClickListener {
+        btn_historial.setOnClickListener{
             val intent: Intent = Intent(this, guardar_valor_contador ::class.java)
             startActivity(intent)
 
             finish()
+        }
+
+        btnGuardar.setOnClickListener {
+
+
             try {
-                val archivo = OutputStreamWriter(openFileOutput("datos.txt", Activity.MODE_APPEND))
+                val archivo = OutputStreamWriter(openFileOutput("score_contador.txt", Activity.MODE_APPEND))
                 archivo.write(objetoAContar.text.toString()  +"  " + txtContando.text.toString() + "\n")
                 archivo.flush()
                 archivo.close()
@@ -64,6 +68,7 @@ class contador : AppCompatActivity() {
             Toast.makeText(this, "Se ha guardado con éxito", Toast.LENGTH_SHORT).show()
 
         }
+
 
 
 
